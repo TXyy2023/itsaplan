@@ -1,5 +1,43 @@
 # Changelog
 
+## [1.5.0](https://github.com/croffasia/itsaplan/compare/v1.4.0...v1.5.0) (2026-10-12)
+
+
+### Features
+
+* **auth:** encrypt the OAuth access and refresh tokens at rest ([#517](https://github.com/croffasia/itsaplan/issues/517)) ([f1bd505](https://github.com/croffasia/itsaplan/commit/f1bd505e6ce57bb6aa45c3622268f091bf408157))
+* let a workspace set its own model prices ([#528](https://github.com/croffasia/itsaplan/issues/528)) ([c777293](https://github.com/croffasia/itsaplan/commit/c777293dbaf268545df27af9a6f3f90156e159a3))
+* let API_URL be a subdomain or a path on the web's host ([#519](https://github.com/croffasia/itsaplan/issues/519)) ([1ca1b0c](https://github.com/croffasia/itsaplan/commit/1ca1b0ccdc0bf19ce19c3d2a018af84e5728db50))
+* show what agents spend, for a team and for a workspace ([#526](https://github.com/croffasia/itsaplan/issues/526)) ([efdc895](https://github.com/croffasia/itsaplan/commit/efdc8956de04bb2177a357f3b221526d02353b4b))
+
+
+### Bug Fixes
+
+* **api:** a schedule patch without a status resumes a paused schedule ([#522](https://github.com/croffasia/itsaplan/issues/522)) ([8a33459](https://github.com/croffasia/itsaplan/commit/8a33459d1a2869211876c748b9bbd35ff6bf1b39))
+* **api:** a timed-out agent run ends as failed ([#512](https://github.com/croffasia/itsaplan/issues/512)) ([bcab65d](https://github.com/croffasia/itsaplan/commit/bcab65dd6577ce43cf9ba46cfa34d592a790e121))
+* **api:** an agent run that reaches maxSteps ends as failed ([#525](https://github.com/croffasia/itsaplan/issues/525)) ([dc5a94f](https://github.com/croffasia/itsaplan/commit/dc5a94f10ae4c38eb650bc12eefe21b6a5b20506))
+* the @ menu offers agents a mention would leave silent ([#514](https://github.com/croffasia/itsaplan/issues/514)) ([8d8761f](https://github.com/croffasia/itsaplan/commit/8d8761fc1fb4bf8e54e1bc1fe754c970c5299a01))
+* **web:** "Add member" offers Owner for an AI agent ([#511](https://github.com/croffasia/itsaplan/issues/511)) ([ada3652](https://github.com/croffasia/itsaplan/commit/ada3652fdfc740b0a27292af8aa8069e6192a2b8))
+* **web:** prevent public shared views from redirecting to login ([#524](https://github.com/croffasia/itsaplan/issues/524)) ([76fac68](https://github.com/croffasia/itsaplan/commit/76fac68751ade91aeb2785d0afb20cee078a5a32))
+* **web:** spelling mistakes in the es-ES catalog ([#510](https://github.com/croffasia/itsaplan/issues/510)) ([7af3688](https://github.com/croffasia/itsaplan/commit/7af368867de776821018476083f2ee55d4168172))
+* **web:** the Security page offers a password change to an account without one ([#515](https://github.com/croffasia/itsaplan/issues/515)) ([67c7295](https://github.com/croffasia/itsaplan/commit/67c7295731807878dbc6bb8e32f27b2cfd5683ee))
+
+
+### Refactoring
+
+* **web:** move isForeignAgent out of the issue feature ([#520](https://github.com/croffasia/itsaplan/issues/520)) ([0937c33](https://github.com/croffasia/itsaplan/commit/0937c33a5c7ed3ce8c03d3a917d55a6978201a70))
+
+
+### Documentation
+
+* say self-hosting needs https and fix the helm note on an api path ([#527](https://github.com/croffasia/itsaplan/issues/527)) ([c67029c](https://github.com/croffasia/itsaplan/commit/c67029cf77d40b03d4779db83df5a3f317e7a8fe))
+
+
+### Chores
+
+* **api:** reword the comment on why a timed-out run is not retried ([#521](https://github.com/croffasia/itsaplan/issues/521)) ([ee8a95c](https://github.com/croffasia/itsaplan/commit/ee8a95cfbd0358d5c02bcf842d388722be7e8766))
+* **web:** add a slot for a notice under the top bar ([#529](https://github.com/croffasia/itsaplan/issues/529)) ([ff4768f](https://github.com/croffasia/itsaplan/commit/ff4768f9bf7a14ed05b6b3095f7e5dfcbc225991))
+
 ## [1.4.0](https://github.com/croffasia/itsaplan/compare/v1.3.0...v1.4.0) (2026-10-08)
 
 
